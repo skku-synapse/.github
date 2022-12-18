@@ -2,7 +2,7 @@
 ----------------------------
 One-Class Classification for Anomaly Detection By CS-Flow
 =========================================================
-<center><img src="./simulator.png"></center><br>
+<center><img src=".github/profile/simulator.png"></center><br>
 
 > **시냅스이미징**사와 함께 진행한 프로젝트입니다. <br>첨단 전자제품 제조 현장에서 수 백만 장의 정상 샘플이 획득되는 동안, **소수의 결함 샘플**이 취득되는 상황이 대부분입니다. 
 <br> 이 경우 결함 데이터셋을 확보하는데 **시간과 비용**이 많이 들어갑니다.
@@ -44,7 +44,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 
 # 성능 평가
 
-<br><img src="./lens.png" width="300px"><br>
+<br><img src=".github/profile//lens.png" width="300px"><br>
 
 ### • 카메라 렌즈 데이터
 - 특징: 이상치 데이터의 불량 크기가 큼.
@@ -55,7 +55,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |PatchCore|0.0%|29.5%|64MB|81ms|
 |CFA|0.0%|54.3%|184MB|65ms|
 
-<br><img src="./flex.png" width="300px"><br>
+<br><img src=".github/profile//flex.png" width="300px"><br>
 
 ### • Flex 데이터
 - 특징: 이상치 데이터의 불량이 흐리고 양/불 구분이 애매함.
@@ -67,7 +67,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |PatchCore|0.18%|68.1%|301MB|81ms|
 |CFA|0.55%|55.0%|184MB|65ms|
 
-<br><img src="./smt.png" width="300px"><br>
+<br><img src=".github/profile//smt.png" width="300px"><br>
 
 ### • SMT 데이터 (카메라 모듈)
 - 특징: 이상치 데이터의 불량 크기가 상대적으로 작음.
