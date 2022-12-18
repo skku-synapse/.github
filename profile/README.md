@@ -44,7 +44,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 
 # 성능 평가
 
-<br><img src="profile//lens.png" width="300px"><br>
+<br><img src="profile/lens.png" width="300px"><br>
 
 ### • 카메라 렌즈 데이터
 - 특징: 이상치 데이터의 불량 크기가 큼.
@@ -55,7 +55,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |PatchCore|0.0%|29.5%|64MB|81ms|
 |CFA|0.0%|54.3%|184MB|65ms|
 
-<br><img src="profile//flex.png" width="300px"><br>
+<br><img src="profile/flex.png" width="300px"><br>
 
 ### • Flex 데이터
 - 특징: 이상치 데이터의 불량이 흐리고 양/불 구분이 애매함.
@@ -67,7 +67,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |PatchCore|0.18%|68.1%|301MB|81ms|
 |CFA|0.55%|55.0%|184MB|65ms|
 
-<br><img src="profile//smt.png" width="300px"><br>
+<br><img src="profile/smt.png" width="300px"><br>
 
 ### • SMT 데이터 (카메라 모듈)
 - 특징: 이상치 데이터의 불량 크기가 상대적으로 작음.
@@ -80,7 +80,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |CFA|0.0%|91.4%|184MB|65ms|
 
 ### • CS-Flow 최종 성능평가
-
+<img src="profile/evaluation.png">
 
 <br>
 
