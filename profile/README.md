@@ -2,7 +2,6 @@
 ----------------------------
 One-Class Classification for Anomaly Detection By CS-Flow
 =========================================================
-<center><img src="profile/simulator.png"></center><br>
 
 > **시냅스이미징**사와 함께 진행한 프로젝트입니다. <br>첨단 전자제품 제조 현장에서 수 백만 장의 정상 샘플이 획득되는 동안, **소수의 결함 샘플**이 취득되는 상황이 대부분입니다. 
 <br> 이 경우 결함 데이터셋을 확보하는데 **시간과 비용**이 많이 들어갑니다.
@@ -95,7 +94,10 @@ One-Class Classification for Anomaly Detection By CS-Flow
 <br>
 
 # Anomaly Detection Simulator
+
+<center><img src="profile/simulator.png"></center><br>
+
 ## 기능
 1. Test 데이터셋의 Prediction 결과 시각화.
 2. Analysis를 통해 과검율, 미검율, 정확도를 확인할 수 있음.
-3. Score Histogram을 통해 양/불 이미지의 score를 확인하고 threshold를 조정할 할 수 있음.
+3. Score Histogram을 통해 양/불 이미지의 score를 확인하여 threshold를 조정하는 데 참고할 수 있음.
