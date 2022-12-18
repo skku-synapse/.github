@@ -16,13 +16,13 @@ One-Class Classification for Anomaly Detection By CS-Flow
     - 구현 모델: One-class SVM, Isolation Forest
     - 데이터셋: 산업용 공개 데이터 MVTec AD
 - 딥러닝 기반 이상치 모델 실습
-    - 구현 모델: CS-Flow, CFlow-AD, OCR-GAN, FastFlow, PaDiM
+    - 구현 모델: CS-Flow, CFLOW-AD, OCR-GAN, FastFlow, PaDiM
     - 데이터셋: MVTec-AD
 ## 6 ~ 8월: 하계 집중학습
 - 제조공정 이미지 데이터셋 분석
     - 데이터셋: 기업에서 제공한 카메라 렌즈, Flex, SMT(카메라 모듈) 데이터에 대해 분석.
     - Anomaly Detection 모델 개발
-            - SOTA 모델 중 CS-Flow, CFlow-AD, FastFlow, PatchCore, CFA를 선정하여 집중 개발 및 최적화.
+            - SOTA 모델 중 CS-Flow, CFLOW-AD, FastFlow, PatchCore, CFA를 선정하여 집중 개발 및 최적화.
     - 성능평가 지표 정리 및 목표 설정
             - 성능평가 지표: 미검율, 과검율, 모델 사이즈, 분류 속도
             - 목표: 미검율 0.5% 이내에서 과검율 30% 이내 <br> 
@@ -78,6 +78,9 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |**CS-Flow**|**0.49%**|**15.6%**|371MB|23ms|
 |PatchCore|0.0%|27.0%|482MB|81ms|
 |CFA|0.0%|91.4%|184MB|65ms|
+
+### • CS-Flow 최종 성능평가
+
 
 <br>
 
