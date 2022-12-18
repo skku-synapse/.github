@@ -10,6 +10,16 @@ One-Class Classification for Anomaly Detection By CS-Flow
 
 <br>
 
+# Repository 설명
+### cs-flow
+- CS-Flow 모델의 코드.
+### frontend
+- Anomaly Detection 시뮬레이터의 frontend 코드. React 사용.
+### backend
+- Anomaly Detection 시뮬레이터의 frontend 코드. Flask 사용.
+
+<br>
+
 # 개발 과정
 ## 4 ~ 5월: 선행 학습
 - 머신 러닝 기반 이상치 모델 실습
