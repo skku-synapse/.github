@@ -80,7 +80,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |CFA|0.0%|91.4%|184MB|65ms|
 
 ### • CS-Flow 최종 성능평가
-<img src="profile/evaluation.png">
+<img src="profile/evaluation.jpg">
 
 <br>
 
