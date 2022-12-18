@@ -4,7 +4,8 @@ One-Class Classification for Anomaly Detection By CS-Flow
 =========================================================
 <center><img src="./simulator.png" height="250px" width="500px"></center><br>
 
-> **시냅스이미징**사와 함께 진행한 프로젝트입니다. <br>첨단 전자제품 제조 현장에서 수 백만 장의 정상 샘플이 획득되는 동안, **소수의 결함 샘플**이 취득되는 상황이 대부분입니다. 이 경우 결함 데이터셋을 확보하는데 **시간과 비용**이 많이 들어갑니다.
+> **시냅스이미징**사와 함께 진행한 프로젝트입니다. <br>첨단 전자제품 제조 현장에서 수 백만 장의 정상 샘플이 획득되는 동안, **소수의 결함 샘플**이 취득되는 상황이 대부분입니다. 
+<br> 이 경우 결함 데이터셋을 확보하는데 **시간과 비용**이 많이 들어갑니다.
 <br> 따라서 저희는 결함 이미지 없이, **정상 이미지로만 학습**하여 양불을 구분하는 **One-class Classification Anomaly Detection** 모델을 개발하였습니다.
 
 <br>
@@ -50,7 +51,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 
 |모델|미검율|과검율|모델 사이즈|분류 속도|
 |:---:|:---:|:---:|:---:|:---:|
-|**CS-Flow**|**0.0%**|**15.2%**|371MB|23ms|
+|<span style="color:red">CS-Flow</span>|**0.0%**|**15.2%**|371MB|23ms|
 |PatchCore|0.0%|29.5%|64MB|81ms|
 |CFA|0.0%|54.3%|184MB|65ms|
 
@@ -62,7 +63,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |모델|미검율|과검율|모델 사이즈|분류 속도|
 |:---:|:---:|:---:|:---:|:---:|
 |CS-Flow|0.13%|35.8%|371MB|23ms|
-|**CS-Flow**|**0.50%**|**25.4%**|371MB|23ms|
+|<span style="color:red">CS-Flow</span>|**0.50%**|**25.4%**|371MB|23ms|
 |PatchCore|0.18%|68.1%|301MB|81ms|
 |CFA|0.55%|55.0%|184MB|65ms|
 
@@ -74,7 +75,7 @@ One-Class Classification for Anomaly Detection By CS-Flow
 |모델|미검율|과검율|모델 사이즈|분류 속도|
 |:---:|:---:|:---:|:---:|:---:|
 |CS-Flow|0.16%|24.8%|371MB|23ms|
-|**CS-Flow**|**0.49%**|**15.6%**|371MB|23ms|
+|<span style="color:red">CS-Flow</span>|**0.49%**|**15.6%**|371MB|23ms|
 |PatchCore|0.0%|27.0%|482MB|81ms|
 |CFA|0.0%|91.4%|184MB|65ms|
 
