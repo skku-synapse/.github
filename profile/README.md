@@ -2,7 +2,7 @@
 ----------------------------
 One-Class Classification for Anomaly Detection By CS-Flow
 =========================================================
-<center><img src=".github/profile/simulator.png"></center><br>
+<center><img src="skku-synapse/.github/profile/simulator.png"></center><br>
 
 > **시냅스이미징**사와 함께 진행한 프로젝트입니다. <br>첨단 전자제품 제조 현장에서 수 백만 장의 정상 샘플이 획득되는 동안, **소수의 결함 샘플**이 취득되는 상황이 대부분입니다. 
 <br> 이 경우 결함 데이터셋을 확보하는데 **시간과 비용**이 많이 들어갑니다.
