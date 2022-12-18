@@ -32,23 +32,23 @@ One-Class Classification for Anomaly Detection By CS-Flow
 - 제조공정 이미지 데이터셋 분석
     - 데이터셋: 기업에서 제공한 카메라 렌즈, Flex, SMT(카메라 모듈) 데이터에 대해 분석.
     - Anomaly Detection 모델 개발
-            - SOTA 모델 중 CS-Flow, CFLOW-AD, FastFlow, PatchCore, CFA를 선정하여 집중 개발 및 최적화.
+        - SOTA 모델 중 CS-Flow, CFLOW-AD, FastFlow, PatchCore, CFA를 선정하여 집중 개발 및 최적화.
     - 성능평가 지표 정리 및 목표 설정
-            - 성능평가 지표: 미검율, 과검율, 모델 사이즈, 분류 속도
-            - 목표: 미검율 0.5% 이내에서 과검율 30% 이내 <br> 
-                모델 사이즈 300MB ~ 400MB 이내
+        - 성능평가 지표: 미검율, 과검율, 모델 사이즈, 분류 속도
+        - 목표: 미검율 0.5% 이내에서 과검율 30% 이내 <br> 
+           모델 사이즈 300MB ~ 400MB 이내
     - Anomaly Detection 시뮬레이션 SW 제작
-            - 모델의 Test 결과를 실시간으로 시각화해서 보여줌.
+        - 모델의 Test 결과를 실시간으로 시각화해서 보여줌.
 ## 9월 ~ 12월: 모델 최적화
 - 모델 선정
     - 모든 성능평가 지표를 종합해봤을 때 **CS-Flow**가 선정됨.
 - CS-Flow 성능 개선
     - 하계 집중학습 결과 모델 사이즈 1GB 정도로 크고, Flex 데이터와 SMT 데이터의 과검율이 목표를 만족하지 못했음.
     - 성능 개선 방법
-            - **모델 사이즈 축소**: 모델의 파라미터를 조정하여 사이즈를 300MB대로 축소.
-            - **데이터셋 재분류**: 보다 정확한 기준으로 모호한 데이터들을 재분류함.
-            - **Score 산출 방식 변경**: 픽셀 별 score에서 최종 score를 산출하는 방식을 평균에서 표준편차 계산으로 바꿈.
-            - **Data Agumentation 실험**: Random Crop, Regular Crop 등으로 데이터를 증강함.
+        - **모델 사이즈 축소**: 모델의 파라미터를 조정하여 사이즈를 300MB대로 축소.
+        - **데이터셋 재분류**: 보다 정확한 기준으로 모호한 데이터들을 재분류함.
+        - **Score 산출 방식 변경**: 픽셀 별 score에서 최종 score를 산출하는 방식을 평균에서 표준편차 계산으로 바꿈.
+        - **Data Agumentation 실험**: Random Crop, Regular Crop 등으로 데이터를 증강함.
 
 <br>
 
